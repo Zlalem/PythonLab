@@ -33,7 +33,7 @@ match choice:
             for key in sorted_dic:
                 print("  ", key, "---------------->", sorted_dic[key])
             print()
-            print("Top five frequently occuring characters")
+            print("Top five frequently is occuring characters")
             print("character", "        ", "Frequency")
             i = 1
             for key in sorted_dic:
@@ -110,7 +110,7 @@ match choice:
                 number_words += len(word_list)
             stringn = re.sub('[^\u1200-\u137F]', '', stringc)
             number_char += len(stringn)
-            print("Total number of Lines =", number_lines)
+            print("Total number of Lines is =", number_lines)
             print("Total number of Words =", number_words)
             print("Total number of characters =", number_char)
             file3.close()
